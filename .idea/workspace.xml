@@ -86,7 +86,9 @@
     <last-search-timestamp>1571092911494</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a952b8c-a3d0-426e-b1ab-f40c7759cef7" name="Default Changelist" comment="" />
+    <list default="true" id="1a952b8c-a3d0-426e-b1ab-f40c7759cef7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,6 +339,7 @@
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_24" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-10-20T16:53:03.488Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="Nexus_5_API_25" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
