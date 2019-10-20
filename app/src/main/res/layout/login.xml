@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/mensagem_inicial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensagemInicial"/>
+
+    <TextView
+            android:text="Usuario:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewLogin"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Digite seu nome de usuario"
+            android:ems="10"
+            android:id="@+id/txtBoxEmail"/>
+    <TextView
+            android:text="Senha:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewPassword"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Digite a sua senha de acesso"
+            android:ems="10"
+            android:id="@+id/txtBoxPassword"/>
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+
+
+        <Button
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLogin"
+                android:stateListAnimator="@null"/>
+
+
+        <!--<ProgressBar android:layout_width="match_parent"
+                     android:layout_height="wrap_content"/>-->
+
+
+    </FrameLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:id="@+id/imageView"/>
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/mensagem_inicial"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:id="@+id/mensagemInicial"/>
+
+    <TextView
+            android:text="Usuario:"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:id="@+id/txtViewLogin"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:inputType="textEmailAddress"
+            android:hint="Digite seu nome de usuario"
+            android:ems="10"
+            android:id="@+id/txtBoxEmail"/>
+    <TextView
+            android:text="Senha:"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:id="@+id/txtViewPassword"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Digite a sua senha de acesso"
+            android:ems="10"
+            android:id="@+id/txtBoxPassword"/>
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="10">
+
+
+
+    <Button
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogin"
+            android:stateListAnimator="@null"/>
+
+
+        <ProgressBar android:layout_width="match_parent"
+                     android:layout_height="wrap_content"/>
+
+
+    </FrameLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:id="@+id/imageView"/>
+</LinearLayout>-->
